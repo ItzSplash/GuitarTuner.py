@@ -2,8 +2,8 @@ import numpy as np
 import pyaudio
 
 
-NOTE_MIN = 40       # C4
-NOTE_MAX = 64       # A4
+NOTE_MIN = 40       # E3
+NOTE_MAX = 64       # E4
 FSAMP = 22050       # Sampling frequency in Hz
 FRAME_SIZE = 2048   # How many samples per frame?
 FRAMES_PER_FFT = 16 # FFT takes average across how many frames?
